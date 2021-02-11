@@ -1,0 +1,44 @@
+/*Informações Gerais*/
+/*Cores principais: #00ff6e, 61FF7E, 81DF9B, 66FFA3,black, white*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/*Container*/
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #00ff6e;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+/*Header*/
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+/*Logo*/
+.header img {
+  max-width: 100%;
+  max-height: auto;
+  width: 90px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: 0.3s;
+}
+/*Animação*/
+.header img:hover {
+  -moz-transition: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.linha1 img{
+    max-width: 100%;
+    max-height: auto;
+}
